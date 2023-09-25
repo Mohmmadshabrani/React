@@ -4,15 +4,7 @@ import "./App.css";
 import Welcome from "./Components/Welcome";
 
 let App = () => {
-  // return (
-  //   <div className="App">
-  //     <Welcome name='ahmed' age='51' phoneNumber = '324234'/>
-  //   </div>
-  // );
   let [count, setCount] = useState(0);
-  // same as
-  // count  = usestate[0]
-  // setCount  = usestate[1]
   let increment = () => {
     setCount(count + 1);
   };6

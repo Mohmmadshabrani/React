@@ -6,6 +6,7 @@ import ErrorPage from './Components/ErrorPage';
 import Form from './Components/signUp';
 import Cal from './Components/calculator';
 import Increment from './Components/increment';
+import HOCs from './newComponent/HOCs';
 
 import { createRoot } from "react-dom/client";
 
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
     path: "/increment",
     element: <Increment/>,
   },
+  {
+    path: "/HOCs",
+    element: <HOCs/>,
+  },
+
 ]);
 
 createRoot(document.getElementById("root")).render(
